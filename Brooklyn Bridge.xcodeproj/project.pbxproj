@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC9204B322BBB69100CB93BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9204B222BBB69100CB93BE /* AppDelegate.swift */; };
+		EC9204B522BBB69100CB93BE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9204B422BBB69100CB93BE /* ViewController.swift */; };
+		EC9204B822BBB69100CB93BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC9204B622BBB69100CB93BE /* Main.storyboard */; };
+		EC9204BA22BBB69900CB93BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC9204B922BBB69900CB93BE /* Assets.xcassets */; };
+		EC9204BD22BBB69900CB93BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC9204BB22BBB69900CB93BE /* LaunchScreen.storyboard */; };
+		EC9204C822BBB69900CB93BE /* Brooklyn_BridgeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9204C722BBB69900CB93BE /* Brooklyn_BridgeTests.swift */; };
+		EC9204D322BBB69900CB93BE /* Brooklyn_BridgeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9204D222BBB69900CB93BE /* Brooklyn_BridgeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC9204C422BBB69900CB93BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC9204A722BBB69100CB93BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC9204AE22BBB69100CB93BE;
+			remoteInfo = "Brooklyn Bridge";
+		};
+		EC9204CF22BBB69900CB93BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC9204A722BBB69100CB93BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC9204AE22BBB69100CB93BE;
+			remoteInfo = "Brooklyn Bridge";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC9204AF22BBB69100CB93BE /* Brooklyn Bridge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Brooklyn Bridge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC9204B222BBB69100CB93BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EC9204B422BBB69100CB93BE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EC9204B722BBB69100CB93BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC9204B922BBB69900CB93BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC9204BC22BBB69900CB93BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EC9204BE22BBB69900CB93BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC9204C322BBB69900CB93BE /* Brooklyn BridgeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Brooklyn BridgeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC9204C722BBB69900CB93BE /* Brooklyn_BridgeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Brooklyn_BridgeTests.swift; sourceTree = "<group>"; };
+		EC9204C922BBB69900CB93BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC9204CE22BBB69900CB93BE /* Brooklyn BridgeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Brooklyn BridgeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC9204D222BBB69900CB93BE /* Brooklyn_BridgeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Brooklyn_BridgeUITests.swift; sourceTree = "<group>"; };
+		EC9204D422BBB69900CB93BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC9204AC22BBB69100CB93BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC9204C022BBB69900CB93BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC9204CB22BBB69900CB93BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC9204A622BBB69100CB93BE = {
+			isa = PBXGroup;
+			children = (
+				EC9204B122BBB69100CB93BE /* Brooklyn Bridge */,
+				EC9204C622BBB69900CB93BE /* Brooklyn BridgeTests */,
+				EC9204D122BBB69900CB93BE /* Brooklyn BridgeUITests */,
+				EC9204B022BBB69100CB93BE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC9204B022BBB69100CB93BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC9204AF22BBB69100CB93BE /* Brooklyn Bridge.app */,
+				EC9204C322BBB69900CB93BE /* Brooklyn BridgeTests.xctest */,
+				EC9204CE22BBB69900CB93BE /* Brooklyn BridgeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC9204B122BBB69100CB93BE /* Brooklyn Bridge */ = {
+			isa = PBXGroup;
+			children = (
+				EC9204B222BBB69100CB93BE /* AppDelegate.swift */,
+				EC9204B422BBB69100CB93BE /* ViewController.swift */,
+				EC9204B622BBB69100CB93BE /* Main.storyboard */,
+				EC9204B922BBB69900CB93BE /* Assets.xcassets */,
+				EC9204BB22BBB69900CB93BE /* LaunchScreen.storyboard */,
+				EC9204BE22BBB69900CB93BE /* Info.plist */,
+			);
+			path = "Brooklyn Bridge";
+			sourceTree = "<group>";
+		};
+		EC9204C622BBB69900CB93BE /* Brooklyn BridgeTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC9204C722BBB69900CB93BE /* Brooklyn_BridgeTests.swift */,
+				EC9204C922BBB69900CB93BE /* Info.plist */,
+			);
+			path = "Brooklyn BridgeTests";
+			sourceTree = "<group>";
+		};
+		EC9204D122BBB69900CB93BE /* Brooklyn BridgeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EC9204D222BBB69900CB93BE /* Brooklyn_BridgeUITests.swift */,
+				EC9204D422BBB69900CB93BE /* Info.plist */,
+			);
+			path = "Brooklyn BridgeUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC9204AE22BBB69100CB93BE /* Brooklyn Bridge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC9204D722BBB69900CB93BE /* Build configuration list for PBXNativeTarget "Brooklyn Bridge" */;
+			buildPhases = (
+				EC9204AB22BBB69100CB93BE /* Sources */,
+				EC9204AC22BBB69100CB93BE /* Frameworks */,
+				EC9204AD22BBB69100CB93BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Brooklyn Bridge";
+			productName = "Brooklyn Bridge";
+			productReference = EC9204AF22BBB69100CB93BE /* Brooklyn Bridge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC9204C222BBB69900CB93BE /* Brooklyn BridgeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC9204DA22BBB69900CB93BE /* Build configuration list for PBXNativeTarget "Brooklyn BridgeTests" */;
+			buildPhases = (
+				EC9204BF22BBB69900CB93BE /* Sources */,
+				EC9204C022BBB69900CB93BE /* Frameworks */,
+				EC9204C122BBB69900CB93BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC9204C522BBB69900CB93BE /* PBXTargetDependency */,
+			);
+			name = "Brooklyn BridgeTests";
+			productName = "Brooklyn BridgeTests";
+			productReference = EC9204C322BBB69900CB93BE /* Brooklyn BridgeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EC9204CD22BBB69900CB93BE /* Brooklyn BridgeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC9204DD22BBB69900CB93BE /* Build configuration list for PBXNativeTarget "Brooklyn BridgeUITests" */;
+			buildPhases = (
+				EC9204CA22BBB69900CB93BE /* Sources */,
+				EC9204CB22BBB69900CB93BE /* Frameworks */,
+				EC9204CC22BBB69900CB93BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC9204D022BBB69900CB93BE /* PBXTargetDependency */,
+			);
+			name = "Brooklyn BridgeUITests";
+			productName = "Brooklyn BridgeUITests";
+			productReference = EC9204CE22BBB69900CB93BE /* Brooklyn BridgeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC9204A722BBB69100CB93BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = fyunka;
+				TargetAttributes = {
+					EC9204AE22BBB69100CB93BE = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					EC9204C222BBB69900CB93BE = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = EC9204AE22BBB69100CB93BE;
+					};
+					EC9204CD22BBB69900CB93BE = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = EC9204AE22BBB69100CB93BE;
+					};
+				};
+			};
+			buildConfigurationList = EC9204AA22BBB69100CB93BE /* Build configuration list for PBXProject "Brooklyn Bridge" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC9204A622BBB69100CB93BE;
+			productRefGroup = EC9204B022BBB69100CB93BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC9204AE22BBB69100CB93BE /* Brooklyn Bridge */,
+				EC9204C222BBB69900CB93BE /* Brooklyn BridgeTests */,
+				EC9204CD22BBB69900CB93BE /* Brooklyn BridgeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC9204AD22BBB69100CB93BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC9204BD22BBB69900CB93BE /* LaunchScreen.storyboard in Resources */,
+				EC9204BA22BBB69900CB93BE /* Assets.xcassets in Resources */,
+				EC9204B822BBB69100CB93BE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC9204C122BBB69900CB93BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC9204CC22BBB69900CB93BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC9204AB22BBB69100CB93BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC9204B522BBB69100CB93BE /* ViewController.swift in Sources */,
+				EC9204B322BBB69100CB93BE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC9204BF22BBB69900CB93BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC9204C822BBB69900CB93BE /* Brooklyn_BridgeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC9204CA22BBB69900CB93BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC9204D322BBB69900CB93BE /* Brooklyn_BridgeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC9204C522BBB69900CB93BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC9204AE22BBB69100CB93BE /* Brooklyn Bridge */;
+			targetProxy = EC9204C422BBB69900CB93BE /* PBXContainerItemProxy */;
+		};
+		EC9204D022BBB69900CB93BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC9204AE22BBB69100CB93BE /* Brooklyn Bridge */;
+			targetProxy = EC9204CF22BBB69900CB93BE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC9204B622BBB69100CB93BE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC9204B722BBB69100CB93BE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC9204BB22BBB69900CB93BE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC9204BC22BBB69900CB93BE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC9204D522BBB69900CB93BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EC9204D622BBB69900CB93BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC9204D822BBB69900CB93BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UDZBV6TRX6;
+				INFOPLIST_FILE = "Brooklyn Bridge/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fyunka.Brooklyn-Bridge";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC9204D922BBB69900CB93BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UDZBV6TRX6;
+				INFOPLIST_FILE = "Brooklyn Bridge/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fyunka.Brooklyn-Bridge";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EC9204DB22BBB69900CB93BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UDZBV6TRX6;
+				INFOPLIST_FILE = "Brooklyn BridgeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fyunka.Brooklyn-BridgeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Brooklyn Bridge.app/Brooklyn Bridge";
+			};
+			name = Debug;
+		};
+		EC9204DC22BBB69900CB93BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UDZBV6TRX6;
+				INFOPLIST_FILE = "Brooklyn BridgeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fyunka.Brooklyn-BridgeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Brooklyn Bridge.app/Brooklyn Bridge";
+			};
+			name = Release;
+		};
+		EC9204DE22BBB69900CB93BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UDZBV6TRX6;
+				INFOPLIST_FILE = "Brooklyn BridgeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fyunka.Brooklyn-BridgeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Brooklyn Bridge";
+			};
+			name = Debug;
+		};
+		EC9204DF22BBB69900CB93BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UDZBV6TRX6;
+				INFOPLIST_FILE = "Brooklyn BridgeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fyunka.Brooklyn-BridgeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Brooklyn Bridge";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC9204AA22BBB69100CB93BE /* Build configuration list for PBXProject "Brooklyn Bridge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC9204D522BBB69900CB93BE /* Debug */,
+				EC9204D622BBB69900CB93BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC9204D722BBB69900CB93BE /* Build configuration list for PBXNativeTarget "Brooklyn Bridge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC9204D822BBB69900CB93BE /* Debug */,
+				EC9204D922BBB69900CB93BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC9204DA22BBB69900CB93BE /* Build configuration list for PBXNativeTarget "Brooklyn BridgeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC9204DB22BBB69900CB93BE /* Debug */,
+				EC9204DC22BBB69900CB93BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC9204DD22BBB69900CB93BE /* Build configuration list for PBXNativeTarget "Brooklyn BridgeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC9204DE22BBB69900CB93BE /* Debug */,
+				EC9204DF22BBB69900CB93BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC9204A722BBB69100CB93BE /* Project object */;
+}
